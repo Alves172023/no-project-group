@@ -1,0 +1,121 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Blog Projeto</title>
+<link rel="stylesheet" href="./CSS/style.css">
+</head>
+<body>
+
+<header>
+<h1>Meu Blog</h1>
+<nav>
+<a href="./2pg/Sobre.html">Saiba Mais Sobre Blog Clicando Aqui</a>
+</nav>
+    </header>
+    <main>
+        <article>
+        <h2>Título do Artigo</h2>
+        <p>texto aqui</p>
+        <img src="" width="500px"  >
+    </article>
+    <article>
+        <h2>Outro Título do Artigo</h2>
+        <p>Texto aqui</p>
+    </article>
+</main>
+
+<footer>
+<p>&copy; 2024  Blog destinado a o Projeto Integrador By Alves</p>
+</footer>
+
+</body>
+</html>
+
+
+<style>
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #292929;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+    animation-name: slide-bottom;
+    animation-duration: 5s;
+}
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+    margin: 0 10px;
+    animation-name: rotate-in-diag-2 ;
+    animation-duration: 5s;
+    animation-delay: 6s;
+    }
+
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 0 20px;
+    animation-name: slide-right;
+    animation-duration: 5s;
+
+}
+/* <--Caso tenha Imagem--> */
+img{
+background-image: 100px 100px;
+
+}
+/* <---------------------> */
+article {
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: #333;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    animation-name: slide-top;
+    animation-duration: 5s;
+}
+@keyframes slide-top {
+    0% {
+      transform: translateY(100px);
+    }
+    100% {
+      transform: translateY(0px);
+    }
+  }
+  @keyframes slide-bottom {
+    0% {
+      transform: translateY(-100px);
+    }
+    100% {
+      transform: translateY(0px);
+    }
+  }
+  @keyframes slide-right {
+    0% {
+      transform: translateX(-1000px);
+    }
+    100% {
+      transform: translateX(0px);
+    }
+  }
+  
+  
+</style>
