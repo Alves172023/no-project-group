@@ -3,6 +3,7 @@
 const count = 34;
 
 
+
 const get_name = document.getElementById("");
 
 if(!get_name){
@@ -14,10 +15,10 @@ function count_play(){
     //Aqui vem a logica
     const valor_init = get_name.innerText = count;
     try{
-        cout++
-
+        const somar = valor_init + 1
+        
     }catch(err){
-        console.log(err)
+        console.log(err);
     }
 
 }

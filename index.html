@@ -5,85 +5,72 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="./js/index.js">
-
-    </script>
-   
-    <title>My Blog</title>
-    <link rel="stylesheet" href="./CSS/sytle.css">
+    <script src="./js/index.js"></script>
+   <title>My Blog</title>
+   <link rel="stylesheet" href="./CSS/botton.css">
 </head>
 </html>
-<button class="glow-on-hover" type="button" href="./html/blog.html" >Clique aqui para ser redicionado a o blog</button>
-<style>
-body {
-    margin: 0;
-    padding: 0;
-    width: 100%;
-    height: 100vh;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    background: #000000;
-}
+<!-- google fonts lato -->
+<link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
 
-.glow-on-hover {
-    width: 220px;
-    height: 50px;
-    border: none;
-    outline: none;
-    color: #fff;
-    background: #111;
-    cursor: pointer;
-    position: relative;
-    z-index: 0;
-    border-radius: 10px;
-}
 
-.glow-on-hover:before {
-    content: '';
-    background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
-    position: absolute;
-    top: -2px;
-    left:-2px;
-    background-size: 400%;
-    z-index: -1;
-    filter: blur(5px);
-    width: calc(100% + 4px);
-    height: calc(100% + 4px);
-    animation: glowing 20s linear infinite;
-    opacity: 0;
-    transition: opacity .3s ease-in-out;
-    border-radius: 10px;
-}
+<a href="#fake" class="enter">ENTER</a>
+<div class="page">
+  <div class="main">
 
-.glow-on-hover:active {
-    color: #000
-}
 
-.glow-on-hover:active:after {
-    background: transparent;
-}
 
-.glow-on-hover:hover:before {
-    opacity: 1;
-}
+    <!--  Content of page -->
+    <header class="clearfix">
+      <div class='container'>
+        <div class="intro">
+          <a href="/grid"><h1>WELCOME</h1></a>
+          <p>To my World</p>
+        </div>
+      </div>
+    </header>
 
-.glow-on-hover:after {
-    z-index: -1;
-    content: '';
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    background: #111;
-    left: 0;
-    top: 0;
-    border-radius: 10px;
-}
 
-@keyframes glowing {
-    0% { background-position: 0 0; }
-    50% { background-position: 400% 0; }
-    100% { background-position: 0 0; }
-}
-</style>
+    <section class="words">
+      <div class="container">
+        <h3>Et quidem, inquit, vehementer errat;</h3>
+
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Non enim iam stirpis bonum quaeret, sed animalis. Primum divisit ineleganter; <a href='http://loripsum.net/' target='_blank'>Sic consequentibus vestris sublatis prima tolluntur.</a> Consequentia exquirere, quoad sit id, quod volumus, effectum. Duo Reges: constructio interrete. Pisone in eo gymnasio, quod Ptolomaeum vocatur, unaque nobiscum Q. Callipho ad virtutem nihil adiunxit nisi voluptatem, Diodorus vacuitatem doloris. Quorum sine causa fieri nihil putandum est. Praeteritis, inquit, gaudeo. Quod si ita se habeat, non possit beatam praestare vitam sapientia. </p>
+      </section>
+
+      <section  class="clearfix"></section>
+
+      <section class="words">
+        <div class="container">
+          <h3>Quid est enim aliud esse versutum?</h3>
+
+          <p>Ostendit pedes et pectus. Omnis enim est natura diligens sui. <a href='http://loripsum.net/' target='_blank'>Cur id non ita fit?</a> <a href='http://loripsum.net/' target='_blank'>Videamus animi partes, quarum est conspectus illustrior;</a> Collige omnia, quae soletis: Praesidium amicorum. Haec et tu ita posuisti, et verba vestra sunt. An est aliquid per se ipsum flagitiosum, etiamsi nulla comitetur infamia? <a href='http://loripsum.net/' target='_blank'>Nos commodius agimus.</a> </p>
+
+          <h2>Quid ei reliquisti, nisi te, quoquo modo loqueretur, intellegere, quid diceret?</h2>
+
+          <p>Quo plebiscito decreta a senatu est consuli quaestio Cn. Hoc etsi multimodis reprehendi potest, tamen accipio, quod dant. Quare obscurentur etiam haec, quae secundum naturam esse dicimus, in vita beata; Iis igitur est difficilius satis facere, qui se Latina scripta dicunt contemnere. Ita multa dicunt, quae vix intellegam. Quo tandem modo? Non semper, inquam; Quae qui non vident, nihil umquam magnum ac cognitione dignum amaverunt. Cur fortior sit, si illud, quod tute concedis, asperum et vix ferendum putabit? </p>
+
+
+          <blockquote cite='http://loripsum.net'>
+            Te autem hortamur omnes, currentem quidem, ut spero, ut eos, quos novisse vis, imitari etiam velis.
+          </blockquote>
+        </section>    
+
+        <section  class="clearfix"></section>
+
+        <section class="words">
+          <div class="container">
+            <p>Quasi vero, inquit, perpetua oratio rhetorum solum, non etiam philosophorum sit. Sed tamen est aliquid, quod nobis non liceat, liceat illis. Si enim ad populum me vocas, eum. Quod autem ratione actum est, id officium appellamus. Apud ceteros autem philosophos, qui quaesivit aliquid, tacet; Longum est enim ad omnia respondere, quae a te dicta sunt. </p>
+
+            <p>Vitiosum est enim in dividendo partem in genere numerare. Eaedem res maneant alio modo. Quae in controversiam veniunt, de iis, si placet, disseramus. Videsne quam sit magna dissensio? Quos quidem tibi studiose et diligenter tractandos magnopere censeo. Si quicquam extra virtutem habeatur in bonis. Sed nimis multa. </p>
+
+          </div>
+        </section>
+        <!-- / Content of page -->
+
+
+      </div>
+    </div>
+
+
+
