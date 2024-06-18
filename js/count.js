@@ -1,24 +1,10 @@
-
 //Valor Inicial - Altere se quiser
-const count = 34;
-
-
-
-const get_name = document.getElementById("");
-
-if(!get_name){
-    console.log("Erro ao iniciar o elemento!")
-    return;
-}
-
+let count = 34;
+//const get_name = document.getElementsByClassName("click")
 function count_play(){
     //Aqui vem a logica
-    const valor_init = get_name.innerText = count;
-    try{
-        const somar = valor_init + 1
-        
-    }catch(err){
-        console.log(err);
-    }
+    
+    count++;
+    document.getElementById("TEST").innerText = `Click count : ${count}`
 
 }
