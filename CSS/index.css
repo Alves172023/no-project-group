@@ -1,0 +1,102 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #f0f0f0;
+  font-family: Arial, sans-serif;
+}
+
+.welcome-page {
+  text-align: center;
+}
+
+.welcome-page h1 {
+  animation-name: text-pop-up-top;
+  animation-duration: 3s;
+  font-size: 2.5em;
+  color: #333;
+  text-shadow: 0 1px 0 #cccccc, 0 2px 0 #cccccc, 0 3px 0 #cccccc, 0 4px 0 #cccccc, 0 5px 0 #cccccc, 0 6px 0 #cccccc, 0 7px 0 #cccccc, 0 8px 0 #cccccc, 0 9px 0 #cccccc, 0 50px 30px rgba(0, 0, 0, 0.3)
+}
+
+.welcome-page p {
+  animation-name: text-shadow-pop-bottom ;
+  animation-duration: 5s;
+  color: #000000;
+  font-size: 1.2em;
+  color: #666;
+}
+
+.btn {
+  animation-name: centro;
+  animation-duration: 1s;
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 10px;
+  background-color: #000000;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  font-size: 1em;
+  margin: 0 auto;
+  border-radius: 15px;
+  cursor: help;
+  border: none;
+}
+a {
+color: white;
+font: arial;
+text-decoration: none;
+}
+
+.btn:hover {
+ animation-name: color-change-5x;
+ animation-duration: 10s;
+}
+/* Animaçãos */
+@keyframes centro {
+  0% {
+    -webkit-transform: scale(0.5);
+            transform: scale(0.5);
+  }
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+}
+ @keyframes text-pop-up-top {
+    0% {
+      -webkit-transform: translateY(-50px);
+              transform: translateY(-50px);
+      -webkit-transform-origin: 50% 50%;
+              transform-origin: 50% 50%;
+      text-shadow: none;
+    }
+    100% {
+      -webkit-transform: translateY(0px);
+              transform: translateY(0px);
+      -webkit-transform-origin: 50% 50%;
+              transform-origin: 50% 50%;
+      text-shadow: 0 1px 0 #cccccc, 0 2px 0 #cccccc, 0 3px 0 #cccccc, 0 4px 0 #cccccc, 0 5px 0 #cccccc, 0 6px 0 #cccccc, 0 7px 0 #cccccc, 0 8px 0 #cccccc, 0 9px 0 #cccccc, 0 50px 30px rgba(0, 0, 0, 0.3);
+    }
+  }
+  @keyframes color-change-5x {
+    0% {
+      background: #19dcea;
+    }
+    25% {
+      background: #b22cff;
+    }
+    50% {
+      background: #ea2222;
+    }
+    75% {
+      background: #f5be10;
+    }
+    100% {
+      background: #3bd80d;
+    }
+  }
+  
+  
