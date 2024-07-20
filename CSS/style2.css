@@ -2,7 +2,7 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background: linear-gradient(to left, #000000, #000000);
+    background: linear-gradient(to left, #dadada, #03a810);
     align-items: center;
 }
 
@@ -80,7 +80,7 @@ main {
 }
 
 .highlight2 {
-    background: linear-gradient(to right, #0718aade, #027a9e);
+    background: linear-gradient(to right, #02a373a9, #f8f8f8);
     max-width: 800px;
     max-height: 800px;
     padding: 20px;

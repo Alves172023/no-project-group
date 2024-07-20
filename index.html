@@ -14,7 +14,6 @@
             justify-content: center;
             min-height: 100vh;
             background-color: #f0f0f0;
-            align-items: center;
         }
 
         .container {
@@ -22,12 +21,15 @@
             padding: 20px;
             border-radius: 5px;
             box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
-            align-items: center;
+            text-align: center; /* Centraliza o texto dentro do container */
         }
 
         h1 {
-            text-align: center;
             margin-bottom: 20px;
+        }
+        a{
+            text-decoration: none;
+            color: white;
         }
 
         button {
@@ -37,6 +39,8 @@
             border: none;
             border-radius: 5px;
             cursor: pointer;
+            margin: 0 auto; /* Centraliza o botão na horizontal */
+            display: block; /* Ocupa toda a largura disponível */
         }
 
         button:hover {
@@ -47,8 +51,8 @@
 <body>
     <div class="container">
         <h1>Bem-vindo!</h1>
-        <p>Este site trata se de economia circular</p>
-        <button onclick="window.location.href='../html/blog.html'">Continuar</button>
+        <p>Clique no botão para continuar.</p>
+        <button ><a href="../html/blog.html">Continuar</a></button>
     </div>
 </body>
 </html>
