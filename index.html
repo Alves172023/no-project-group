@@ -7,21 +7,25 @@
     <style>
         body {
             font-family: sans-serif;
-            margin: 0;
-            padding: 0;
+            
             display: flex;
             align-items: center;
             justify-content: center;
             min-height: 100vh;
-            background-color: #f0f0f0;
+            background: linear-gradient(to left, rgb(11, 170, 72), rgb(151, 210, 224)) no-repeat;
+            background-image: url(https://scontent.fcgb6-1.fna.fbcdn.net/v/t39.30808-6/341283322_2670908096384815_6729575313207752789_n.jpg?stp=dst-jpg_p720x720&_nc_cat=101&ccb=1-7&_nc_sid=cc71e4&_nc_ohc=cKJdsvBXwd8Q7kNvgFfvNPO&_nc_ht=scontent.fcgb6-1.fna&oh=00_AYBrpXoN6W5MaZ1dlex0X2LcKATkTmxoku9SBBVxwegUWA&oe=66A3592F);
+            background-position: center center ;
+            background-size: cover;
+            
         }
 
         .container {
-            background-color: #fff;
+            background-color: rgb(231, 227, 0);
             padding: 20px;
             border-radius: 5px;
             box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
             text-align: center; /* Centraliza o texto dentro do container */
+            color: black;
         }
 
         h1 {
@@ -29,7 +33,7 @@
         }
         a{
             text-decoration: none;
-            color: white;
+            color: rgb(255, 254, 254);
         }
 
         button {
@@ -46,6 +50,22 @@
         button:hover {
             background-color: #45a049;
         }
+        /* Animação etc */
+        @keyframes imgzo {
+  0% {
+    -webkit-transform: scale(1) translateY(0);
+            transform: scale(1) translateY(0);
+    -webkit-transform-origin: 50% 84%;
+            transform-origin: 50% 84%;
+  }
+  100% {
+    -webkit-transform: scale(1.25) translateY(15px);
+            transform: scale(1.25) translateY(15px);
+    -webkit-transform-origin: bottom;
+            transform-origin: bottom;
+  }
+}
+
     </style>
 </head>
 <body>
