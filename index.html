@@ -45,24 +45,29 @@
             cursor: pointer;
             margin: 0 auto; /* Centraliza o botão na horizontal */
             display: block; /* Ocupa toda a largura disponível */
+          
         }
 
         button:hover {
-            background-color: #45a049;
+            animation-name: cor;
+            animation-duration: 20s;
         }
         /* Animação etc */
-        @keyframes imgzo {
+        @keyframes cor {
   0% {
-    -webkit-transform: scale(1) translateY(0);
-            transform: scale(1) translateY(0);
-    -webkit-transform-origin: 50% 84%;
-            transform-origin: 50% 84%;
+    background: #19dcea;
+  }
+  25% {
+    background: #b22cff;
+  }
+  50% {
+    background: #ea2222;
+  }
+  75% {
+    background: #f5be10;
   }
   100% {
-    -webkit-transform: scale(1.25) translateY(15px);
-            transform: scale(1.25) translateY(15px);
-    -webkit-transform-origin: bottom;
-            transform-origin: bottom;
+    background: #3bd80d;
   }
 }
 
