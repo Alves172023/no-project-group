@@ -2,13 +2,13 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background: linear-gradient(to left, #dadada, #03a810);
+    background: linear-gradient(to right, #005724, #024b20);
     align-items: center;
 }
 
 header {
-    background-color: #000000;
-    color: #fff;
+    background-color: #188a09;
+    color: #ffffff;
     padding: 20px;
     text-align: center;
 }
@@ -30,7 +30,7 @@ a.read-more
     background: linear-gradient(to right, #000000, #000000);
     border-radius: 20px;
     padding: 20px;
-    color: #fff;
+    color: #ffffff;
     text-decoration: none;
     cursor: help;
 
@@ -68,7 +68,7 @@ main {
 }
 
 .highlight {
-    background: linear-gradient(to right, #02cf5e, #02813b);
+    background: linear-gradient(to right, #02cf5e, #02cf5e);
     max-width: 800px;
     margin-left: auto;
     margin-right: auto;
@@ -80,7 +80,7 @@ main {
 }
 
 .highlight2 {
-    background: linear-gradient(to right, #02662f, #02cf5e);
+    background: linear-gradient(to right, #02cf5e, #02cf5e);
     max-width: 800px;
     max-height: 800px;
     padding: 20px;
