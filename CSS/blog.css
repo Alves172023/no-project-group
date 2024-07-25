@@ -37,7 +37,7 @@ a.read-more
 }
 a.read-more:hover
 {
-    background: linear-gradient(to right, #0078e9, #01c268);
+    background: linear-gradient(to right, #000000, #000000);
     animation-name: botaomudando;
     animation-duration: 2s;
 
@@ -68,7 +68,7 @@ main {
 }
 
 .highlight {
-    background: linear-gradient(to right, #ffffff, #0acf63);
+    background: linear-gradient(to right, #02cf5e, #02813b);
     max-width: 800px;
     margin-left: auto;
     margin-right: auto;
@@ -80,7 +80,7 @@ main {
 }
 
 .highlight2 {
-    background: linear-gradient(to right, #02a373a9, #f8f8f8);
+    background: linear-gradient(to right, #02662f, #02cf5e);
     max-width: 800px;
     max-height: 800px;
     padding: 20px;
@@ -154,7 +154,7 @@ main {
       opacity: 1;
     }
   }
-  @keyframes botaomudando {
+  @keyframes botaomudand {
     0% {
       -webkit-transform: scale(0.5);
               transform: scale(0.5);
@@ -162,5 +162,25 @@ main {
     100% {
       -webkit-transform: scale(1);
               transform: scale(1);
+    }
+  }
+  @keyframes botaomudando {
+    0% {
+      -webkit-transform: translateY(0) scaleY(1) scaleX(1);
+              transform: translateY(0) scaleY(1) scaleX(1);
+      -webkit-transform-origin: 50% 0%;
+              transform-origin: 50% 0%;
+      -webkit-filter: blur(0);
+              filter: blur(0);
+      opacity: 1;
+    }
+    100% {
+      -webkit-transform: translateY(-1000px) scaleY(2) scaleX(0.2);
+              transform: translateY(-1000px) scaleY(2) scaleX(0.2);
+      -webkit-transform-origin: 50% 0%;
+              transform-origin: 50% 0%;
+      -webkit-filter: blur(40px);
+              filter: blur(40px);
+      opacity: 0;
     }
   }
